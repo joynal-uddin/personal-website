@@ -84,3 +84,29 @@ section { margin-bottom: 150px;}
     display: inline-block;
     text-align: center;
 }
+
+.flow-new{
+    text-align: center;
+}
+
+.flow{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(2, 39, 11),rgb(8, 92, 22));
+    padding: 12px 25px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700 ;
+    display: inline-block;
+    text-align: center;
+}
+
+.copy{
+    text-align: center;
+    color: gray;
+}
+
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
