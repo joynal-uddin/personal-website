@@ -1,13 +1,19 @@
-body{
+body{margin: 0;
     font-family: 'Lora', serif;
 }
 h1{ font-size:50px;}
 h2{
     font-size: 40px;
 }
+h4{
+    font-size: 20px;
+}
+section { margin-bottom: 150px;}
+
 .header{
-    background-image:url("images/header-bg.png");
+    background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 .every-content{
     float: left;
@@ -31,9 +37,50 @@ h2{
     border-radius: 5px;
     color:white;
     font-weight: 700 ;
+    display: inline-block;
+    text-align: center;
 }
 
 .biography{
     background-image:url("images/biography-bg.png");
     background-repeat: no-repeat;
+    overflow: hidden;
+}
+.latest-work{
+    background-image:url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+ .latest-work h2{
+    text-align: center;
+ }
+ .work{ 
+     float: left;
+     width: 27%;
+     margin-left:2%;
+     padding-left: 2%;
+
+ }
+ .work img{ 
+     width:100%;
+}
+.client-area{ 
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.client-area span{ 
+    color: gray;
+}
+
+#client-a{
+    text-decoration: none;
+    background-image: linear-gradient(60deg, rgb(212, 32, 131),rgb(224, 64, 126));
+    margin-top: 30px;;
+    padding: 18px 60px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700 ;
+    display: inline-block;
+    text-align: center;
 }
