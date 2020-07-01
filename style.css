@@ -1,0 +1,21 @@
+body{
+    font-family: 'Lora', serif;
+}
+h1{ font-size:50px;}
+h2{
+    font-size: 40px;
+}
+.every-content{
+    float: left;
+    width:40%;
+}
+.every-content img{
+    width:100%;
+}
+.color-name{
+            color:#EC4C7A;
+            font-weight: 700;
+}
+.link-art{
+    text-decoration: none;
+}
